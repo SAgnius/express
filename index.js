@@ -6,6 +6,7 @@ app.get('/', (req, res) => {
     res.send('Hello from Express + Docker!');
 });
 
+// atidarome porta
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
