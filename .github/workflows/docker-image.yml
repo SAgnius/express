@@ -26,5 +26,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/mano-projektas:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/express:latest
 
